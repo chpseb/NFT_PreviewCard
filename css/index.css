@@ -1,0 +1,30 @@
+:root {
+  --PrimarySoftBlue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Main-background-dark-blue: hsl(217, 54%, 11%);
+  --Card-background-dark-blue: hsl(216, 50%, 16%);
+  --Line-background-dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --Outfit: "Outfit", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  background-color: var(--Main-background-dark-blue);
+  font-family: var(--Outfit);
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft-container {
+  background-color: var(--Card-background-dark-blue);
+}
