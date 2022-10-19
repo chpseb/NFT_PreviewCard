@@ -15,16 +15,40 @@
 }
 
 body {
-  font-size: 18px;
-  background-color: var(--Main-background-dark-blue);
-  font-family: var(--Outfit);
-}
-.main-container {
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 18px;
+  background-color: var(--Main-background-dark-blue);
+  font-family: var(--Outfit);
+  color: var(--White);
+}
+.main-container {
+  background-color: var(--Card-background-dark-blue);
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  border-radius: 15px;
 }
 
-.nft-container {
-  background-color: var(--Card-background-dark-blue);
+.nft-card-container {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.equilibrium-img img {
+  width: 100%;
+  position: relative;
+
+  cursor: pointer;
+}
+
+.icon-view {
+  inset: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* visibility: hidden; */
 }
