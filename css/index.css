@@ -40,7 +40,6 @@ body {
 .equilibrium-img img {
   width: 100%;
   position: relative;
-
   cursor: pointer;
 }
 
@@ -50,5 +49,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* visibility: hidden; */
+  visibility: hidden;
+  z-index: 1;
+}
+
+.equilibrium-img:hover {
+  background-color: red;
+  visibility: visible;
 }
