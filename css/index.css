@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --PrimarySoftBlue: hsl(215, 51%, 70%);
   --Cyan: hsl(178, 100%, 50%);
@@ -6,12 +12,6 @@
   --Line-background-dark-blue: hsl(215, 32%, 27%);
   --White: hsl(0, 0%, 100%);
   --Outfit: "Outfit", sans-serif;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -24,36 +24,12 @@ body {
   font-family: var(--Outfit);
   color: var(--White);
 }
-.main-container {
+
+main {
   background-color: var(--Card-background-dark-blue);
   display: flex;
   flex-direction: column;
   max-width: 350px;
   border-radius: 15px;
-}
-
-.nft-card-container {
-  border-radius: 8px;
-  padding: 20px;
-}
-
-.equilibrium-img img {
-  width: 100%;
-  position: relative;
-  cursor: pointer;
-}
-
-.icon-view {
-  inset: 0;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  z-index: 1;
-}
-
-.equilibrium-img:hover {
-  background-color: red;
-  visibility: visible;
+  margin-top: 10%;
 }
